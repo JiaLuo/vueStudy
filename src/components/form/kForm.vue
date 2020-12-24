@@ -30,6 +30,7 @@
                 Promise.all(tasks)
                     .then(() => callback(true))
                     .catch(() => callback(false))
+                    
             }
         },
     }
